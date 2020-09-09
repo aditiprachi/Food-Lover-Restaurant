@@ -1,0 +1,388 @@
+html , body {
+  background-color: rgb(31, 32, 33);
+  color: white;
+  padding-bottom: 5em;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: 'Almarai', sans-serif;
+}
+
+.logo {
+  position: absolute;
+  width:50px;
+  top: 0.5em;
+  left:50%;
+}
+
+.logo1{
+  position: absolute;
+  top: 3em;
+  left:48%;
+  text-align: center;
+}
+
+.start {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-image: linear-gradient(to bottom, rgba(31, 32, 33, 0.8) 85%, rgba(31, 32, 33, 0.8) 30%, #313233 100%),url(bg.webp);
+  padding-bottom: 13em;
+}
+
+.navi {
+  padding-top: 2em;
+  margin: 0 3em;
+}
+
+li {
+  padding: 0.8em;
+}
+
+.waff {
+  margin-left: 3em;
+}
+
+.contact {
+  color: orange;
+}
+
+button{
+  background-color: orange;
+}
+
+.first {
+  padding-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.breakfast{
+   padding-top: 2em;
+   margin-left: 18em;
+ }
+
+.waff , .cookie {
+  max-width: 600px;
+}
+
+.second {
+  padding-top: 6em;
+  margin-left: 2em;
+  margin-right: 4em;
+  padding-bottom: 2em;
+}
+
+.about {
+  padding-top: 4.1em;
+}
+
+.orange2 {
+  max-width: 590px;
+  padding-left: 5em;
+}
+.orange1 {
+  padding-top: 9em;
+  width: 300px;
+}
+
+.third {
+  background-image:linear-gradient(to bottom, rgba(31, 32, 33, 0.5) 85%, rgba(31, 32, 33, 0.5) 30%, #000000 100%), url(orange.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4em;
+  height: 52em;
+}
+
+.our {
+  margin: 2em 0 0 8em;
+}
+
+.photo {
+  width: 30%;
+  height: 24em;
+  margin: auto;
+  padding: 2em;
+}
+
+.gallery {
+  padding: 3em;
+  text-align: center;
+}
+
+.fourth {
+  background-image:url(bg2.webp);
+  background-size: cover;
+  height: 50em;
+  padding-top: 15em;
+  margin-top: 4em;
+}
+
+.enjoy {
+   text-align: center;
+   width: 30em;
+   margin: auto ;
+   border: 3px solid orange;
+   padding: 3em;
+ }
+
+ .menu {
+   text-align: center;
+   padding: 3em 0 1.8em 0;
+
+ }
+
+ .item img {
+   width: 100%;
+   height: 20em;
+   margin: auto;
+ }
+
+.col-3{
+  padding: 0;
+}
+
+.caption {
+  color: orange;
+  font-size: 1.8em;
+}
+
+.last {
+  margin-top: 10em;
+  width: 100%;
+  height: 400px;
+  background: orange;
+  position: relative;
+}
+
+.plate {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: -2em;;
+  left: 0;
+}
+.invi {
+  display: none;
+}
+.best {
+  width:400px;
+  position: absolute;
+  left:45%;
+  top:18%;
+}
+
+.heart {
+  padding-top: 2em;
+  font-size: 3em;
+  text-align: center;
+}
+
+.heart img {
+  width: 50px;
+}
+
+
+.icon {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+
+
+
+@media screen and (max-width: 1680px) {
+  body {
+    font-weight: 500;
+  }
+  .contact {
+    font-size: 3.5em;
+  }
+  .des{
+    font-size: 0.8em;
+  }
+  .breakfast p , .logo1 , {
+    font-size: 1.2em;
+  }
+
+  p{
+    font-size:1.45em;
+  }
+  .logo1{
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 1295px) {
+
+  .contact {
+    font-size: 2.6em;
+  }
+  .breakfast{
+    margin-left: 18em;
+  }
+  .waff{
+    width: 500px;
+  }
+  .about {
+    padding-top:3em;
+  }
+  .breakfast p {
+    font-size: 1.1em;
+  }
+  .logo1{
+    font-size: 1.2em;
+  }
+  .our h1 {
+    font-size: 2.6em;
+  }
+  p{
+    font-size:1.3em;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .contact {
+    font-size: 2.5em;
+  }
+  .cookie{
+    width:450px;
+  }
+  .first{
+    margin: 2em;
+  }
+  .breakfast {
+    margin-left: 18em;
+  }
+  .orange1{
+    padding-top: 1em;
+  }
+  p{
+    font-size:1.1em;
+  }
+  .des {
+    font-size: 0.75em;
+  }
+  .gallery {
+    padding: 1.8em;
+  }
+  .photo {
+    padding: 1.5em;
+  }
+  .about{
+    padding-left: 4.5em;
+    padding-top: 0;
+  }
+  .best {
+    padding-left: 5em;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .contact {
+    font-size: 2.5em;
+  }
+  .breakfast{
+    margin-left:0;
+  }
+  .waff{
+    width:600px;
+  }
+  .cookie {
+    width: 700px;
+  }
+  .orange2 {
+    display: none;
+  }
+  .orange1{
+    width: 600px;
+    padding-top: 2em;
+  }
+  .our{
+    padding:0.5em;
+    margin: 2em 3em 0 3em;
+  }
+  .photo {
+    width: 45%;
+    height: 24em;
+  }
+  p{
+    font-size:1.1em;
+  }
+
+  .item img{
+    width: 100%;
+    height:25em;
+  }
+  .des {
+    font-size: 1em;
+  }
+  .about {
+    padding-left: 1.5em;
+    padding-top: 1em;
+  }
+  .best{
+    padding-left: 7em;
+  }
+  .plate{
+    width:450px;
+  }
+  .last {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .waff , .cookie {
+    width: 100%;
+    margin-left: 0;
+  }
+  .breakfast {
+    margin-left: 0;
+  }
+  .photo {
+    width: 80%;
+    height: 30em;
+  }
+  .plate{
+    width:350px;
+  }
+  .last {
+    height: 250px;
+  }
+  .best{
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .invi{
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .enjoy {
+    padding: 1em;
+    width:80%;
+  }
+  .best{
+    left: 20%;
+    padding-right: 5%;
+  }
+  .plate {
+    display: none;
+  }
+
+}
+@media screen and (max-width: 530px) {
+  .best{
+    left: 8%;
+    padding-right: 5%;
+  }
+  .best p {
+    font-size: 1.1em;
+  }
+}
